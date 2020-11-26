@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBCBC78256FEB77000ECC91 /* BowWOWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBC77256FEB77000ECC91 /* BowWOWApp.swift */; };
+		ECBCBC7A256FEB77000ECC91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBC79256FEB77000ECC91 /* ContentView.swift */; };
+		ECBCBC7C256FEB85000ECC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBCBC7B256FEB85000ECC91 /* Assets.xcassets */; };
+		ECBCBC7F256FEB85000ECC91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBCBC7E256FEB85000ECC91 /* Preview Assets.xcassets */; };
+		ECBCBC8A256FEB86000ECC91 /* BowWOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBC89256FEB86000ECC91 /* BowWOWTests.swift */; };
+		ECBCBC95256FEB86000ECC91 /* BowWOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCBC94256FEB86000ECC91 /* BowWOWUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBCBC86256FEB86000ECC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBCBC6C256FEB77000ECC91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBCBC73256FEB77000ECC91;
+			remoteInfo = BowWOW;
+		};
+		ECBCBC91256FEB86000ECC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBCBC6C256FEB77000ECC91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBCBC73256FEB77000ECC91;
+			remoteInfo = BowWOW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBCBC74256FEB77000ECC91 /* BowWOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowWOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBCBC77256FEB77000ECC91 /* BowWOWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowWOWApp.swift; sourceTree = "<group>"; };
+		ECBCBC79256FEB77000ECC91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECBCBC7B256FEB85000ECC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBCBC7E256FEB85000ECC91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECBCBC80256FEB85000ECC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBCBC85256FEB86000ECC91 /* BowWOWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowWOWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBCBC89256FEB86000ECC91 /* BowWOWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowWOWTests.swift; sourceTree = "<group>"; };
+		ECBCBC8B256FEB86000ECC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBCBC90256FEB86000ECC91 /* BowWOWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowWOWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBCBC94256FEB86000ECC91 /* BowWOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowWOWUITests.swift; sourceTree = "<group>"; };
+		ECBCBC96256FEB86000ECC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBCBC71256FEB77000ECC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBC82256FEB86000ECC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBC8D256FEB86000ECC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBCBC6B256FEB77000ECC91 = {
+			isa = PBXGroup;
+			children = (
+				ECBCBC76256FEB77000ECC91 /* BowWOW */,
+				ECBCBC88256FEB86000ECC91 /* BowWOWTests */,
+				ECBCBC93256FEB86000ECC91 /* BowWOWUITests */,
+				ECBCBC75256FEB77000ECC91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBCBC75256FEB77000ECC91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBC74256FEB77000ECC91 /* BowWOW.app */,
+				ECBCBC85256FEB86000ECC91 /* BowWOWTests.xctest */,
+				ECBCBC90256FEB86000ECC91 /* BowWOWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBCBC76256FEB77000ECC91 /* BowWOW */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBC77256FEB77000ECC91 /* BowWOWApp.swift */,
+				ECBCBC79256FEB77000ECC91 /* ContentView.swift */,
+				ECBCBC7B256FEB85000ECC91 /* Assets.xcassets */,
+				ECBCBC80256FEB85000ECC91 /* Info.plist */,
+				ECBCBC7D256FEB85000ECC91 /* Preview Content */,
+			);
+			path = BowWOW;
+			sourceTree = "<group>";
+		};
+		ECBCBC7D256FEB85000ECC91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBC7E256FEB85000ECC91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECBCBC88256FEB86000ECC91 /* BowWOWTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBC89256FEB86000ECC91 /* BowWOWTests.swift */,
+				ECBCBC8B256FEB86000ECC91 /* Info.plist */,
+			);
+			path = BowWOWTests;
+			sourceTree = "<group>";
+		};
+		ECBCBC93256FEB86000ECC91 /* BowWOWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCBC94256FEB86000ECC91 /* BowWOWUITests.swift */,
+				ECBCBC96256FEB86000ECC91 /* Info.plist */,
+			);
+			path = BowWOWUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBCBC73256FEB77000ECC91 /* BowWOW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBCBC99256FEB86000ECC91 /* Build configuration list for PBXNativeTarget "BowWOW" */;
+			buildPhases = (
+				ECBCBC70256FEB77000ECC91 /* Sources */,
+				ECBCBC71256FEB77000ECC91 /* Frameworks */,
+				ECBCBC72256FEB77000ECC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowWOW;
+			productName = BowWOW;
+			productReference = ECBCBC74256FEB77000ECC91 /* BowWOW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBCBC84256FEB86000ECC91 /* BowWOWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBCBC9C256FEB86000ECC91 /* Build configuration list for PBXNativeTarget "BowWOWTests" */;
+			buildPhases = (
+				ECBCBC81256FEB86000ECC91 /* Sources */,
+				ECBCBC82256FEB86000ECC91 /* Frameworks */,
+				ECBCBC83256FEB86000ECC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBCBC87256FEB86000ECC91 /* PBXTargetDependency */,
+			);
+			name = BowWOWTests;
+			productName = BowWOWTests;
+			productReference = ECBCBC85256FEB86000ECC91 /* BowWOWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBCBC8F256FEB86000ECC91 /* BowWOWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBCBC9F256FEB86000ECC91 /* Build configuration list for PBXNativeTarget "BowWOWUITests" */;
+			buildPhases = (
+				ECBCBC8C256FEB86000ECC91 /* Sources */,
+				ECBCBC8D256FEB86000ECC91 /* Frameworks */,
+				ECBCBC8E256FEB86000ECC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBCBC92256FEB86000ECC91 /* PBXTargetDependency */,
+			);
+			name = BowWOWUITests;
+			productName = BowWOWUITests;
+			productReference = ECBCBC90256FEB86000ECC91 /* BowWOWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBCBC6C256FEB77000ECC91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ECBCBC73256FEB77000ECC91 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ECBCBC84256FEB86000ECC91 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECBCBC73256FEB77000ECC91;
+					};
+					ECBCBC8F256FEB86000ECC91 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECBCBC73256FEB77000ECC91;
+					};
+				};
+			};
+			buildConfigurationList = ECBCBC6F256FEB77000ECC91 /* Build configuration list for PBXProject "BowWOW" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBCBC6B256FEB77000ECC91;
+			productRefGroup = ECBCBC75256FEB77000ECC91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBCBC73256FEB77000ECC91 /* BowWOW */,
+				ECBCBC84256FEB86000ECC91 /* BowWOWTests */,
+				ECBCBC8F256FEB86000ECC91 /* BowWOWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBCBC72256FEB77000ECC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCBC7F256FEB85000ECC91 /* Preview Assets.xcassets in Resources */,
+				ECBCBC7C256FEB85000ECC91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBC83256FEB86000ECC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBC8E256FEB86000ECC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBCBC70256FEB77000ECC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCBC7A256FEB77000ECC91 /* ContentView.swift in Sources */,
+				ECBCBC78256FEB77000ECC91 /* BowWOWApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBC81256FEB86000ECC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCBC8A256FEB86000ECC91 /* BowWOWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCBC8C256FEB86000ECC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCBC95256FEB86000ECC91 /* BowWOWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBCBC87256FEB86000ECC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBCBC73256FEB77000ECC91 /* BowWOW */;
+			targetProxy = ECBCBC86256FEB86000ECC91 /* PBXContainerItemProxy */;
+		};
+		ECBCBC92256FEB86000ECC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBCBC73256FEB77000ECC91 /* BowWOW */;
+			targetProxy = ECBCBC91256FEB86000ECC91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECBCBC97256FEB86000ECC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBCBC98256FEB86000ECC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBCBC9A256FEB86000ECC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BowWOW/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BowWOW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.BowWOW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBCBC9B256FEB86000ECC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BowWOW/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BowWOW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.BowWOW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECBCBC9D256FEB86000ECC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				INFOPLIST_FILE = BowWOWTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.BowWOWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BowWOW.app/BowWOW";
+			};
+			name = Debug;
+		};
+		ECBCBC9E256FEB86000ECC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				INFOPLIST_FILE = BowWOWTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.BowWOWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BowWOW.app/BowWOW";
+			};
+			name = Release;
+		};
+		ECBCBCA0256FEB86000ECC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				INFOPLIST_FILE = BowWOWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.BowWOWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BowWOW;
+			};
+			name = Debug;
+		};
+		ECBCBCA1256FEB86000ECC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BZ43KCTM7;
+				INFOPLIST_FILE = BowWOWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.cleayates.BowWOWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BowWOW;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBCBC6F256FEB77000ECC91 /* Build configuration list for PBXProject "BowWOW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCBC97256FEB86000ECC91 /* Debug */,
+				ECBCBC98256FEB86000ECC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBCBC99256FEB86000ECC91 /* Build configuration list for PBXNativeTarget "BowWOW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCBC9A256FEB86000ECC91 /* Debug */,
+				ECBCBC9B256FEB86000ECC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBCBC9C256FEB86000ECC91 /* Build configuration list for PBXNativeTarget "BowWOWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCBC9D256FEB86000ECC91 /* Debug */,
+				ECBCBC9E256FEB86000ECC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBCBC9F256FEB86000ECC91 /* Build configuration list for PBXNativeTarget "BowWOWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCBCA0256FEB86000ECC91 /* Debug */,
+				ECBCBCA1256FEB86000ECC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBCBC6C256FEB77000ECC91 /* Project object */;
+}
